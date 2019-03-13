@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello Spring Security</title>
+</head>
+<body>
+<h1 th:text="'登录成功! 尊敬的用户: ' + ${username}"></h1>
+<a th:href="@{/system/logout.html}">退出登录</a>
+</body>
+</html>
